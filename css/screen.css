@@ -90,6 +90,11 @@ ul.posts span {
   color: #aaa;
 }
 
+.site .meta img {
+  vertical-align: middle;
+  margin-right: 0.4em;
+}
+
 .site .footer {
   font-size: 80%;
   color: #666;
