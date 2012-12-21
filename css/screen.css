@@ -107,6 +107,17 @@ ul.posts span {
   color: #8085C1;
 }
 
+#profile {
+}
+
+#profile table {
+	margin-left: 1.35em;
+}
+
+#profile table td {
+  padding: .4em;
+}
+
 #post {
 }
 
