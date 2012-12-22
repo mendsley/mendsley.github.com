@@ -8,6 +8,7 @@ layout: nil
 	<link href="http://mendsley.github.com" />
 	<updated>{{ site.time | date_to_xmlschema }}</updated>
 	<id>http://mendsley.github.com</id>
+	<icon>/images/matt_icon.png</icon>
 	<author>
 		<name>Matthew Endsley</name>
 		<email>mendsley@gmail.com</email>
