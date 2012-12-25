@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Amazon Game Connect or: How I Almost Ruined Christmas"
-image: /images/ruiningchristmas/calendar.png
+image: /images/ruiningchristmas/f7u12_tn.png
 icon: matt
 location: Seattle
 ---
