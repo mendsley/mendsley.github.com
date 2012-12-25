@@ -1,5 +1,7 @@
 ---
 layout: default
+title: Learning to #Gamedev
+description: Thoughts on my adventures building video games
 ---
 
 Contact

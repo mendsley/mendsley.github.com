@@ -2,12 +2,15 @@
 layout: default
 ---
 
+
+<div itemscope="itemscope" itemtype="http://schema.org/Product">
+</div>
+
 <div id="post">
 
 <h1>{{ page.title }}</h1>
-<h2>{{ page.description }}</h2>
 
-<p class="meta"><img src="/images/{{ page.icon }}_icon.png">{{ page.date | date_to_long_string }} - {{ page.location }}</img></p>
+<p class="meta"><img alt="author" src="/images/{{ page.icon }}_icon.png" />{{ page.date | date_to_long_string }} - {{ page.location }}</p>
 
 {{ content }}
 

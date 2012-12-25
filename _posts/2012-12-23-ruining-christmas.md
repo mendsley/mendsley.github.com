@@ -4,6 +4,7 @@ title: "Amazon Game Connect or: How I Almost Ruined Christmas"
 image: /images/ruiningchristmas/f7u12_tn.png
 icon: matt
 location: Seattle
+description: "Debugging duplicate SHA-1 hashes during AirMech's Amazon Game Connect launch"
 ---
 
 It's a quiet Sunday evening, and I'm using the time to perform a lengthy

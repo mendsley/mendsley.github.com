@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us" itemscope itemtype="http://schema.org/Article">
 	<head>
 		<meta charset="utf-8" />
 		<title>{{ page.title }}</title>
@@ -10,8 +10,12 @@
 		<meta name="author" content="Matthew Endsley" />
 		<meta property="og:title" content="{{ page.title }}" />
 		<meta property="og:image" content="http://mendsley.github.com{{ page.image }}" />
-		<meta itemprop="image_url" content="http://mendsley.github.com{{ page.image }}" />
+		<meta property="og:url" content="http://mendsley.github.com{{ page.url }}" />
 		<link rel="image_src" href="http://mendsley.github.com{{ page.image }}" />
+
+		<meta itemprop="name" content="{{ page.title }}" />
+		<meta itemprop="description" content="{{ page.description }}" />
+		<meta itemprop="image" content="http://mendsley.github.com{{ page.image }}" />
 		
 		<link rel="stylesheet" href="/css/screen.css" type="text/css" media="screen, projection" />
 		<link rel="stylesheet" href="/css/syntax.css" type="text/css" />
@@ -33,7 +37,7 @@
 	<body>
 		<div class="site">
 			<div class="title">
-				<a href="/atom.xml"><img src="/images/rss14.png"></img></a>
+				<a href="/atom.xml"><img alt="rss feed" src="/images/rss14.png" /></a>
 				<a href="/">Matthew Endsley</a>
 				<a class="extra" href="/">home</a>
 			</div>
@@ -41,5 +45,6 @@
 			{{ content }}
 
 		</div>
+		<a href="https://plus.google.com/108692310408288996137?rel=author">Google+</a>
 	</body>
 </html>
